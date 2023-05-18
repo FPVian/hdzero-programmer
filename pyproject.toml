@@ -1,0 +1,16 @@
+# https://setuptools.pypa.io/en/latest/userguide/quickstart.html
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hdzero-programmer"
+version = "1.0.2"
+requires-python = ">3.10"
+dependencies = [
+    "requests == 2.30.0",
+    "wget == 3.2",
+    "pillow==9.5.0",
+    "pyinstaller==5.11.0",
+]
